@@ -13,7 +13,7 @@ config.py >>> it has the database configurations
 db.py  >>>> its used for the CURD operations inside the database 
 models.py >>> where you create the tables using SQLAlchemy
 MQTT.py >>>> the subscriber main code in python - MQTT
-setup.sh >>> bash file for rasberrypi to install python 3.7.4
+setup.sh >>> bash file for rasberrypi to install python 3.7
 
 ```
 
@@ -24,7 +24,7 @@ you will also need to be familiar with MQTT and have a publisher working , and b
 
 ```
 virtualenv
-Python
+Python2.7.15
 SQLAlchemy
 MQTT - Publisher device publishing messages
 you can install all " pip install -r requirments.txt "
